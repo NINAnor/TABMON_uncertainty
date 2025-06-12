@@ -1,0 +1,16 @@
+# Changes here will be overwritten by Copier
+_commit: v0.1.5
+_src_path: gh:ninanor/python-template
+author_name: bencretois
+debug: false
+default_branch_name: main
+docker: false
+email: benjamin.cretois@nina.no
+notebook: true
+notebook_type: jupyter
+project_name: uncertainty
+project_slug: uncertainty
+repo_name: uncertainty
+repo_org: ninanor
+template_type: python
+type_annotations: false

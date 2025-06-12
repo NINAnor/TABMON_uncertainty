@@ -1,0 +1,36 @@
+[dependency-groups]
+dev = [
+  "deptry",
+  "ipykernel",
+  "pre-commit"
+]
+
+[project]
+authors = [
+  {name = "bencretois", email = "benjamin.cretois@nina.no"}
+]
+# PEP 621 project metadata
+# See https://www.python.org/dev/peps/pep-0621/
+dependencies = [
+  "django-environ",
+  "duckdb>=1.2.2",
+  "ipykernel>=6.29.5",
+  "nbformat>=5.10.4",
+  "pandas>=2.2.3",
+  "plotly>=6.1.2",
+  "seaborn>=0.13.2",
+  "statsmodels>=0.14.4",
+]
+description = ""
+license = {text = "GPL-3.0+"}
+name = "uncertainty"
+readme = "README.md"
+requires-python = ">=3.10"
+version = "0.1.0"
+
+[tool.ruff]
+fix = true
+
+[tool.ruff.lint]
+ignore = ["COM812"]
+select = ["E", "W", "I", "F", "UP", "S", "B", "A", "COM", "LOG", "PTH", "Q"]
